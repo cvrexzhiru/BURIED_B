@@ -1,0 +1,215 @@
+{
+    "version": 1,
+    "name": "VG_XRI_Actions",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "5e9c2c46-8d0f-4a82-a76b-0fb8c026af21",
+            "actions": [
+                {
+                    "name": "PositionLeft",
+                    "type": "Value",
+                    "id": "ee30aa2e-df87-4bee-a3d4-90c873265647",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "RotationLeft",
+                    "type": "Value",
+                    "id": "4a68e47f-aae6-45d3-9b35-56d73ba22a84",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "TriggerLeft",
+                    "type": "Value",
+                    "id": "c92bc691-77e3-4939-b071-6fc6ff24855c",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "GrabLeft",
+                    "type": "Value",
+                    "id": "05695f3c-a136-4204-b8c1-7652c0d8764a",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "HapticsLeft",
+                    "type": "PassThrough",
+                    "id": "8995e02d-61a0-493d-a13f-55d9e5658518",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PositionRight",
+                    "type": "Value",
+                    "id": "831e7e8b-a736-4b86-b10e-c716947441e6",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "RotationRight",
+                    "type": "Value",
+                    "id": "b01d2747-c367-4736-bae0-0bc6c6e401af",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "TriggerRight",
+                    "type": "Value",
+                    "id": "540bd2bf-9621-41dd-928a-f4483e7584a8",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "GrabRight",
+                    "type": "Value",
+                    "id": "036d8143-e054-4d67-8c76-fda93c42b4a7",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "HapticsRight",
+                    "type": "PassThrough",
+                    "id": "7747ad02-852c-4fca-92b3-a83eae0c1a5b",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9cb2f084-f5d2-4d8f-a313-a3021eb15522",
+                    "path": "<XRController>{LeftHand}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PositionLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bb0f5946-aaf9-4bca-a3d4-6f08914c1964",
+                    "path": "<XRController>{LeftHand}/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotationLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "068644a6-aee3-46da-9aac-792eb800e552",
+                    "path": "<XRController>{LeftHand}/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TriggerLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7b675c25-8c76-4e4e-ac19-0c57d9a9076f",
+                    "path": "<XRController>{LeftHand}/grip",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GrabLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9bf70aa6-f1c6-495a-9aa0-94a94d791970",
+                    "path": "<XRController>{LeftHand}/*",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HapticsLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "718616de-a924-4ca8-9838-2ee9f615bd0f",
+                    "path": "<XRController>{RightHand}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PositionRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cbf73362-2123-4466-81b5-114320c50be4",
+                    "path": "<XRController>{RightHand}/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotationRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a81e1334-648c-4f43-a298-0aac43d9afcf",
+                    "path": "<XRController>{RightHand}/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TriggerRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "252cb2a1-cbf6-485f-8d89-41fd7223d3d1",
+                    "path": "<XRController>{RightHand}/grip",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GrabRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c2572f5c-5781-45e2-b836-d6c3d757ce56",
+                    "path": "<XRController>{RightHand}/*",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HapticsRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
